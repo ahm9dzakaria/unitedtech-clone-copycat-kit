@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Headphones, Wifi, Database, Shield, Zap, BarChart3 } from "lucide-react";
+import { Headphones, Wifi, Database, Phone, Zap, BarChart3 } from "lucide-react";
 
 const Products = () => {
   const products = [
@@ -30,11 +30,11 @@ const Products = () => {
       badge: null
     },
     {
-      icon: Shield,
-      title: "أنظمة الأمان والحماية",
-      description: "حلول أمان متكاملة لحماية البيانات والاتصالات من التهديدات السيبرانية.",
+      icon: Phone,
+      title: "هواتف IP",
+      description: "تليفونات حديثة ديجيتال بمميزات احترافية لسرعة الاتصالات",
       price: "00 جنيه",
-      features: ["حماية متقدمة", "مراقبة مستمرة", "تشفير البيانات"],
+      features: ["Cisco", "Grandstreem", "Fiberme", "Yalink"],
       badge: null
     },
     {
