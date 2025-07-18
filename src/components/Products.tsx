@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Headphones, Wifi, Database, Phone, Zap, BarChart3 } from "lucide-react";
+import { Headphones, Wifi, Database, Shield, Zap, BarChart3 } from "lucide-react";
 
 const Products = () => {
   const products = [
@@ -9,7 +9,7 @@ const Products = () => {
       icon: Headphones,
       title: "سماعات الرأس الاحترافية",
       description: "سماعات عالية الجودة مصممة خصيصاً لمراكز الاتصال مع خاصية إلغاء الضوضاء.",
-      price: "00 جنيه",
+      price: "من 299 ريال",
       features: ["إلغاء الضوضاء", "راحة طوال اليوم", "جودة صوت عالية"],
       badge: "الأكثر مبيعاً"
     },
@@ -17,7 +17,7 @@ const Products = () => {
       icon: Wifi,
       title: "أجهزة الشبكات المتقدمة",
       description: "حلول شبكات متطورة لضمان اتصال مستقر وسريع لجميع أنظمة الاتصال.",
-      price: "00 جنيه",
+      price: "من 1,299 ريال",
       features: ["سرعة عالية", "استقرار الشبكة", "أمان متقدم"],
       badge: "جديد"
     },
@@ -25,23 +25,23 @@ const Products = () => {
       icon: Database,
       title: "خوادم التخزين",
       description: "خوادم عالية الأداء لتخزين وإدارة بيانات مراكز الاتصال بشكل آمن.",
-      price: "00 جنيه",
+      price: "من 4,999 ريال",
       features: ["سعة تخزين كبيرة", "نسخ احتياطي", "حماية البيانات"],
       badge: null
     },
     {
-      icon: Phone,
-      title: "هواتف IP",
-      description: "تليفونات حديثة ديجيتال بمميزات احترافية لسرعة الاتصالات",
-      price: "00 جنيه",
-      features: ["Cisco", "Grandstreem", "Fiberme", "Yalink"],
+      icon: Shield,
+      title: "أنظمة الأمان والحماية",
+      description: "حلول أمان متكاملة لحماية البيانات والاتصالات من التهديدات السيبرانية.",
+      price: "من 2,499 ريال",
+      features: ["حماية متقدمة", "مراقبة مستمرة", "تشفير البيانات"],
       badge: null
     },
     {
       icon: Zap,
       title: "أنظمة الطاقة الاحتياطية",
       description: "وحدات طاقة احتياطية لضمان استمرارية العمل في حالات انقطاع الكهرباء.",
-      price: "00 جنيه",
+      price: "من 1,899 ريال",
       features: ["تشغيل مستمر", "شحن سريع", "مراقبة ذكية"],
       badge: null
     },
@@ -49,7 +49,7 @@ const Products = () => {
       icon: BarChart3,
       title: "لوحات المراقبة الذكية",
       description: "شاشات عرض متقدمة لمراقبة أداء مراكز الاتصال والإحصائيات في الوقت الفعلي.",
-      price: "00 جنيه",
+      price: "من 3,299 ريال",
       features: ["عرض فوري", "تقارير تفاعلية", "تحليلات متقدمة"],
       badge: "مميز"
     }
