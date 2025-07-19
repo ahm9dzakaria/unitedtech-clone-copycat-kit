@@ -4,7 +4,7 @@ import Services from "@/components/Services";
 import Products from "@/components/Products";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import Footer from "@/partner/Footer";
+import partner from "@/partner/Footer";
 
 const Index = () => {
   return (
