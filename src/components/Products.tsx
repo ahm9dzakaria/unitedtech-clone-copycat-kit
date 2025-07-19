@@ -42,7 +42,7 @@ const Products = () => {
       title: " أنظمة حماية الشباكات",
       description: "أنظمة الحماية الإلكترونية (Cybersecurity Systems) تهدف لحماية الأجهزة، الشبكات، والبيانات من الهجمات والاختراقات.",
       price: "00 جنيه",
-      features: ["تشغيل مستمر", "شحن سريع", "مراقبة ذكية"],
+      features: ["Anti-malware", "Antivirus", "Firewall"],
       badge: null
     },
     {
