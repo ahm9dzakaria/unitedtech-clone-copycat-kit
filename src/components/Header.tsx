@@ -6,7 +6,8 @@ const Header = () => {
     <header className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+         <img src="/logo.png" alt="United Tech Logo" width={120} height={60} />
+
           <div className="flex items-center">
             <div className="flex items-center space-x-3 rtl:space-x-reverse">
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
