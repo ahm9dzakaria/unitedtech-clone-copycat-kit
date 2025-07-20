@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Phone, Settings, Users, ArrowLeft } from "lucide-react";
+import heroImage from "@/assets/hero-tech.jpg";
 
 const Services = () => {
   const services = [
