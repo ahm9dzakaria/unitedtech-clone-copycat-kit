@@ -39,6 +39,14 @@ const Services = () => {
         "دعم فني 24/7"
       ]
     }
+      {/* Hero Image */}
+          <div className="relative animate-slide-up">
+            <div className="relative">
+              <img 
+                src={heroImage} 
+                alt="مركز اتصالات احترافي" 
+                className="w-full h-auto rounded-2xl shadow-2xl"
+              />
   ];
 
   return (
