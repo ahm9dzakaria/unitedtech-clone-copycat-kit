@@ -10,7 +10,7 @@ const Header = () => {
           <div className="flex items-center">
             <div className="flex items-center space-x-3 rtl:space-x-reverse">
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">UT</span>
+                <span className="text-white font-bold text-sm">UTS</span>
               </div>
               <span className="text-xl font-bold font-cairo bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
                 يونايتد تك
