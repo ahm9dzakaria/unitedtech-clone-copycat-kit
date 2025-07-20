@@ -39,16 +39,8 @@ const Services = () => {
         "دعم فني 24/7"
       ]
     }
-     
   ];
- {/* Hero Image */}
-          <div className="relative animate-slide-up">
-            <div className="relative">
-              <img 
-                src={heroImage} 
-                alt="مركز اتصالات احترافي" 
-                className="w-full h-auto rounded-2xl shadow-2xl"
-              />
+
   return (
     <section id="services" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
