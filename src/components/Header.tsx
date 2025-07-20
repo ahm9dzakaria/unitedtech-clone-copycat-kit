@@ -10,7 +10,7 @@ const Header = () => {
           <div className="flex items-center">
             <div className="flex items-center space-x-3 rtl:space-x-reverse">
               <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">UTS</span>
+                <span className="text-white font-bold text-sm">UT</span>
               </div>
               <span className="text-xl font-bold font-cairo bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
                 يونايتد تك
@@ -43,7 +43,6 @@ const Header = () => {
               <Phone className="w-4 h-4" />
               <span className="font-cairo">+20 1222919936</span>
             </div>
-            <Button className="bg-gradient-to-r from-primary to-primary-glow hover:opacity-90 font-cairo">
             <Button 
               onClick={() => window.open('https://wa.me/+201222919936', '_blank')}
               className="bg-gradient-to-r from-primary to-primary-glow hover:opacity-90 font-cairo"
