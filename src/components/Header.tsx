@@ -43,6 +43,7 @@ const Header = () => {
               <Phone className="w-4 h-4" />
               <span className="font-cairo">+20 1222919936</span>
             </div>
+            <Button className="bg-gradient-to-r from-primary to-primary-glow hover:opacity-90 font-cairo">
             <Button 
               onClick={() => window.open('https://wa.me/+201222919936', '_blank')}
               className="bg-gradient-to-r from-primary to-primary-glow hover:opacity-90 font-cairo"
