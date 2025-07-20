@@ -46,7 +46,7 @@ const Services = () => {
           <div className="flex animate-slide-rtl space-x-8 rtl:space-x-reverse">
             {/* First set of partners */}
             {partners.map((partner, index) => (
-              <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/20 min-w-[100px] flex-shrink-0">
+              <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/20 min-w-[300px] flex-shrink-0">
                 <CardHeader className="text-center">
                   <div className="w-20 h-20 mx-auto mb-4 rounded-2xl overflow-hidden bg-white p-2 group-hover:scale-110 transition-transform duration-300 shadow-md">
                     <img 
