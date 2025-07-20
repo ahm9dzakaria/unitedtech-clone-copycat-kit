@@ -76,6 +76,7 @@ const Services = () => {
                 </ul>
                 <Button 
                   variant="outline" 
+                  onClick={() => window.open('https://wa.me/+201222919936', '_blank')}
                   className="w-full font-cairo group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
                 >
                   استفسر الآن
@@ -90,6 +91,7 @@ const Services = () => {
         <div className="text-center">
           <Button 
             size="lg" 
+            onClick={() => window.open('https://wa.me/+201222919936', '_blank')}
             className="bg-gradient-to-r from-primary to-primary-glow hover:opacity-90 font-cairo text-lg px-8 py-3"
           >
             تحدث مع مستشار تقني الآن

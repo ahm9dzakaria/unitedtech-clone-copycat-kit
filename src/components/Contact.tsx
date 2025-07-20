@@ -71,6 +71,7 @@ const Contact = () => {
             <div className="space-y-4">
               <Button 
                 size="lg" 
+                onClick={() => window.open('https://wa.me/+201222919936', '_blank')}
                 className="w-full bg-green-600 hover:bg-green-700 font-cairo"
               >
                 <MessageCircle className="ml-2 h-5 w-5" />
@@ -79,6 +80,7 @@ const Contact = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
+                onClick={() => window.open('https://wa.me/+201222919936', '_blank')}
                 className="w-full font-cairo border-primary text-primary hover:bg-primary hover:text-primary-foreground"
               >
                 <Phone className="ml-2 h-5 w-5" />
@@ -133,6 +135,7 @@ const Contact = () => {
                 <Button 
                   type="submit" 
                   size="lg" 
+                  onClick={() => window.open('https://wa.me/+201222919936', '_blank')}
                   className="w-full bg-gradient-to-r from-primary to-primary-glow hover:opacity-90 font-cairo"
                 >
                   إرسال الرسالة

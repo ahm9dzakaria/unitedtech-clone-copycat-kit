@@ -30,6 +30,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <Button 
                 size="lg" 
+                onClick={() => window.open('https://wa.me/+201222919936', '_blank')}
                 className="bg-gradient-to-r from-primary to-primary-glow hover:opacity-90 font-cairo text-lg px-8 py-3 group"
               >
                 <MessageCircle className="ml-2 h-5 w-5" />
@@ -38,6 +39,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
+                onClick={() => window.open('https://wa.me/+201222919936', '_blank')}
                 className="font-cairo text-lg px-8 py-3 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
               >
                 استكشف خدماتنا

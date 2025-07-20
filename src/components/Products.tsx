@@ -105,10 +105,17 @@ const Products = () => {
                 </ul>
                 
                 <div className="space-y-2">
-                  <Button className="w-full bg-gradient-to-r from-primary to-primary-glow hover:opacity-90 font-cairo">
+                  <Button 
+                    onClick={() => window.open('https://wa.me/+201222919936', '_blank')}
+                    className="w-full bg-gradient-to-r from-primary to-primary-glow hover:opacity-90 font-cairo"
+                  >
                     اطلب الآن
                   </Button>
-                  <Button variant="outline" className="w-full font-cairo">
+                  <Button 
+                    variant="outline" 
+                    onClick={() => window.open('https://wa.me/+201222919936', '_blank')}
+                    className="w-full font-cairo"
+                  >
                     المزيد من التفاصيل
                   </Button>
                 </div>
