@@ -2,42 +2,29 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Phone, Settings, Users, ArrowLeft } from "lucide-react";
 import heroImage from "@/assets/hero-tech.jpg";
+import partnerLogo1 from "@/assets/partner-logo-1.jpg";
+import partnerLogo2 from "@/assets/partner-logo-2.jpg";
+import partnerLogo3 from "@/assets/partner-logo-3.jpg";
 
 const Services = () => {
-  const services = [
+  const partners = [
     {
-      icon: Users,
-      title: "شركاء النجاح",
-      description: "نستعرض لكم بعض من شركاء النجاح معانا.",
-      features: [
-         "",
-        "",
-        "",
-        "دعم فني 24/7"
-      ]
+      logo: partnerLogo1,
+      name: "تك سوليوشنز",
+      description: "شريك تقني متخصص في الحلول الرقمية والابتكار التكنولوجي",
+      website: "https://wa.me/01222919936"
     },
-     {
-      icon: Users,
-      title: "شركاء النجاح",
-      description: "نستعرض لكم بعض من شركاء النجاح معانا.",
-      features: [
-         "",
-        "",
-        "",
-        "دعم فني 24/7"
-      ]
-    },
-
     {
-      icon: Users,
-      title: "شركاء النجاح",
-      description: "نستعرض لكم بعض من شركاء النجاح معانا.",
-      features: [
-        "",
-        "",
-        "",
-        "دعم فني 24/7"
-      ]
+      logo: partnerLogo2,
+      name: "نت ورك برو",
+      description: "خبراء في شبكات الاتصالات وأنظمة المعلومات المتقدمة",
+      website: "https://wa.me/01222919936"
+    },
+    {
+      logo: partnerLogo3,
+      name: "ديجيتال بارتنرز",
+      description: "رواد في مجال التحول الرقمي والحلول الذكية للأعمال",
+      website: "https://wa.me/01222919936"
     }
   ];
 
@@ -54,33 +41,30 @@ const Services = () => {
           </p>
         </div>
 
-        {/* Services Grid */}
+        {/* Partners Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {services.map((service, index) => (
+          {partners.map((partner, index) => (
             <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/20 animate-slide-up" style={{animationDelay: `${index * 200}ms`}}>
               <CardHeader className="text-center">
-                <div className="w-9 h-9 mx-auto mb-4 bg-gradient-to-br from-primary to-primary-glow rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <service.icon className="w-8 h-8 text-white" />
+                <div className="w-20 h-20 mx-auto mb-4 rounded-2xl overflow-hidden bg-white p-2 group-hover:scale-110 transition-transform duration-300 shadow-md">
+                  <img 
+                    src={partner.logo} 
+                    alt={partner.name}
+                    className="w-full h-full object-contain rounded-xl"
+                  />
                 </div>
-                <CardTitle className="text-xl font-cairo mb-2">{service.title}</CardTitle>
+                <CardTitle className="text-xl font-cairo mb-2">{partner.name}</CardTitle>
                 <CardDescription className="text-muted-foreground font-cairo leading-relaxed">
-                  {service.description}
+                  {partner.description}
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 mb-6">
-                  {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center space-x-2 rtl:space-x-reverse text-sm font-cairo">
-                      <div className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></div>
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
                 <Button 
                   variant="outline" 
                   className="w-full font-cairo group-hover:bg-primary group-hover:text-primary-foreground transition-colors"
+                  onClick={() => window.open(partner.website, '_blank')}
                 >
-                  استفسر الآن
+                  تواصل معنا
                   <ArrowLeft className="mr-2 h-4 w-4" />
                 </Button>
               </CardContent>
