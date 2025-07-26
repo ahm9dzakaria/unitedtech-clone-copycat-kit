@@ -47,7 +47,9 @@ const Footer = () => {
               <li><a href="#products" className="text-background/80 hover:text-primary transition-colors font-cairo">سماعات احترافية</a></li>
               <li><a href="#products" className="text-background/80 hover:text-primary transition-colors font-cairo">أجهزة الشبكات</a></li>
               <li><a href="#products" className="text-background/80 hover:text-primary transition-colors font-cairo">خوادم التخزين</a></li>
-              <li><a href="#products" className="text-background/80 hover:text-primary transition-colors font-cairo">أنظمة الأمان</a></li>
+              <li><a href="#products" className="text-background/80 hover:text-primary transition-colors font-cairo">أنظمة حماية الشباكات</a></li>
+              <li><a href="#products" className="text-background/80 hover:text-primary transition-colors font-cairo">هواتف IP</a></li>
+              <li><a href="#products" className="text-background/80 hover:text-primary transition-colors font-cairo">لوحات المراقبة الذكية</a></li>
             </ul>
           </div>
 
