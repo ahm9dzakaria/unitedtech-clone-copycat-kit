@@ -39,7 +39,7 @@ const Services = () => {
     },
      {
       logo: partnerLogo5,
-      name: "شركة عمالة لألحاق العمالة بالخارج ",
+      name: "شركة عمالة لألحاق العمالة بالخارج",
       description: "",
       website: "https://wa.me/01222919936"
     },
@@ -51,11 +51,11 @@ const Services = () => {
     },
      {
       logo: partnerLogo7,
-      name: "شركة راجي و شركاه ",
+      name: "شركة راجي و شركاه",
       description: "",
       website: "https://wa.me/01222919936"
     },
- {
+     {
       logo: partnerLogo8,
       name: "Lampatronics شركة",
       description: "",
