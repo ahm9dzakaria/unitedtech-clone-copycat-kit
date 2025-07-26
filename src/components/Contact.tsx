@@ -40,10 +40,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-4 rtl:space-x-reverse">
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
-                    <Mail className="w-6 h-6 text-white" />
-                  </div>
+          
                 <div className="flex items-center space-x-4 rtl:space-x-reverse">
                   <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
                     <Mail className="w-6 h-6 text-white" />
