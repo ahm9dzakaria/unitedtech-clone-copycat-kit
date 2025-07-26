@@ -2,10 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Phone, Settings, Users, ArrowLeft } from "lucide-react";
 import heroImage from "@/assets/hero-tech.jpg";
-import partnerLogo1 from "@/assets/p1.jpg";
-import partnerLogo2 from "@/assets/p2.png";
-import partnerLogo3 from "@/assets/p3.png";
-import partnerLogo3 from "@/assets/p4.jfif";
+import partnerLogo1 from "@/assets/P1.jpg";
+import partnerLogo2 from "@/assets/P2.jpg";
+import partnerLogo3 from "@/assets/P3.jpg";
+import partnerLogo3 from "@/assets/P4.jpg";
 
 const Services = () => {
   const partners = [
