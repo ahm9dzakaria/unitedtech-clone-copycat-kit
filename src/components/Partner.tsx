@@ -2,103 +2,103 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Phone, Settings, Users, ArrowLeft } from "lucide-react";
 import heroImage from "@/assets/hero-tech.jpg";
-import partnerLogo1 from "@/assets/P1.jpg";
-import partnerLogo2 from "@/assets/P2.png";
-import partnerLogo3 from "@/assets/P3.png";
-import partnerLogo4 from "@/assets/P4.jfif";
-import partnerLogo5 from "@/assets/P5.jpg";
-import partnerLogo6 from "@/assets/P6.jpg";
-import partnerLogo7 from "@/assets/P7.jpg";
-import partnerLogo8 from "@/assets/P8.jpg";
-import partnerLogo9 from "@/assets/P9.jpg";
-import partnerLogo10 from "@/assets/P10.jpg";
-import partnerLogo11 from "@/assets/P11.jpg";
-import partnerLogo12 from "@/assets/P12.jpg";
-import partnerLogo13 from "@/assets/P13.jpg";
-import partnerLogo14 from "@/assets/P14.jpg";
+import P1 from "@/assets/P1.jpg";
+import P2 from "@/assets/P2.jpg";
+import P3 from "@/assets/P3.jpg";
+import P4 from "@/assets/P4.jfif";
+import P5 from "@/assets/P5.jpg";
+import P6 from "@/assets/P6.jpg";
+import P7 from "@/assets/P7.jpg";
+import P8 from "@/assets/P8.jpg";
+import P9 from "@/assets/P9.jpg";
+import P10 from "@/assets/P10.jpg";
+import P11 from "@/assets/P11.jpg";
+import P12 from "@/assets/P12.jpg";
+import P13 from "@/assets/P13.jpg";
+import P14 from "@/assets/P14.jpg";
 
 const Services = () => {
   const partners = [
     {
-      logo: partnerLogo1,
+      logo: P1,
       name: "مطعم سما العاصمة",
       description: "",
       website: "https://wa.me/01222919936"
     },
     {
-      logo: partnerLogo2,
+      logo: P2,
       name: "سلسلة مطاعم ماكسمام",
       description: "",
       website: "https://wa.me/01222919936"
     },
     {
-      logo: partnerLogo3,
+      logo: P3,
       name: "مطعم اسماك البحرين",
       description: "",
       website: "https://wa.me/01222919936"
     },
-      {
-      logo: partnerLogo4,
+    {
+      logo: P4,
       name: "Bellissimo سلسلة كافيهات ",
       description: "",
       website: "https://wa.me/01222919936"
     },
-     {
-      logo: partnerLogo5,
+    {
+      logo: P5,
       name: "شركة عمالة لألحاق العمالة بالخارج",
       description: "",
       website: "https://wa.me/01222919936"
     },
-     {
-      logo: partnerLogo6,
+    {
+      logo: P6,
       name: "digital Squad شركة",
       description: "",
       website: "https://wa.me/01222919936"
     },
-     {
-      logo: partnerLogo7,
+    {
+      logo: P7,
       name: "شركة راجي و شركاه",
       description: "",
       website: "https://wa.me/01222919936"
     },
-     {
-      logo: partnerLogo8,
+    {
+      logo: P8,
       name: "Lampatronics شركة",
       description: "",
       website: "https://wa.me/01222919936"
     },
-     {
-      logo: partnerLogo9,
+    {
+      logo: P9,
       name: "شركة سيراميكا روندي",
       description: "",
       website: "https://wa.me/01222919936"
     },
-     {
-      logo: partnerLogo10,
+    {
+      logo: P10,
       name: "welyra APP",
       description: "",
       website: "https://wa.me/01222919936"
     },
-     {
-      logo: partnerLogo11,
+    {
+      logo: P11,
       name: "عيادات تمازج",
       description: "",
       website: "https://wa.me/01222919936"
     },
-     {
-      logo: partnerLogo12,
+    {
+      logo: P12,
       name: "جمعية بنكمل بعض",
       description: "",
       website: "https://wa.me/01222919936"
     },
-     {
-      logo: partnerLogo13,
+    {
+      logo: P13,
       name: "Rident عيادات",
       description: "",
       website: "https://wa.me/01222919936"
     },
     {
-      logo: partnerLogo14,
+      logo: P14,
       name: "Gawad شركة",
       description: "",
       website: "https://wa.me/01222919936"
