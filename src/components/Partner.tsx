@@ -6,6 +6,10 @@ import partnerLogo1 from "@/assets/P1.jpg";
 import partnerLogo2 from "@/assets/P2.jpg";
 import partnerLogo3 from "@/assets/P3.jpg";
 import partnerLogo4 from "@/assets/P4.jpg";
+import partnerLogo5 from "@/assets/P5.jpg";
+import partnerLogo6 from "@/assets/P6.jpg";
+import partnerLogo7 from "@/assets/P7.jpg";
+import partnerLogo8 from "@/assets/P8.jpg";
 
 const Services = () => {
   const partners = [
@@ -30,6 +34,30 @@ const Services = () => {
       {
       logo: partnerLogo4,
       name: "Bellissimo سلسلة كافيهات ",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+     {
+      logo: partnerLogo5,
+      name: "شركة عمالة لألحاق العمالة بالخارج ",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+     {
+      logo: partnerLogo6,
+      name: "digital Squad شركة",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+     {
+      logo: partnerLogo7,
+      name: "شركة راجي و شركاه ",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+ {
+      logo: partnerLogo8,
+      name: "Lampatronics شركة",
       description: "",
       website: "https://wa.me/01222919936"
     }
