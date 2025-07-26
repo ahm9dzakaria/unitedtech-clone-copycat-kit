@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="col-span-2 lg:col-span-1">
             <div className="flex items-center space-x-3 rtl:space-x-reverse mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">UT</span>
+                <span className="text-white font-bold">UTS</span>
               </div>
               <span className="text-2xl font-bold font-cairo">يونايتد تك</span>
             </div>
@@ -60,8 +60,12 @@ const Footer = () => {
                 <span className="text-background/80 font-cairo">+20 1222919936</span>
               </div>
               <div className="flex items-center space-x-3 rtl:space-x-reverse">
+                <Phone className="w-5 h-5 text-primary" />
+                <span className="text-background/80 font-cairo">+20 1140764800</span>
+              </div>
+              <div className="flex items-center space-x-3 rtl:space-x-reverse">
                 <Mail className="w-5 h-5 text-primary" />
-                <span className="text-background/80 font-cairo">info@unitedtech.com</span>
+                <span className="text-background/80 font-cairo">info@united-tech.com</span>
               </div>
               <div className="flex items-center space-x-3 rtl:space-x-reverse">
                 <MapPin className="w-5 h-5 text-primary" />
