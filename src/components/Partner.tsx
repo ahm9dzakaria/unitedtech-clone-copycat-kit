@@ -5,7 +5,7 @@ import heroImage from "@/assets/hero-tech.jpg";
 import partnerLogo1 from "@/assets/P1.jpg";
 import partnerLogo2 from "@/assets/P2.jpg";
 import partnerLogo3 from "@/assets/P3.jpg";
-import partnerLogo3 from "@/assets/P4.jpg";
+import partnerLogo4 from "@/assets/P4.jpg";
 
 const Services = () => {
   const partners = [
