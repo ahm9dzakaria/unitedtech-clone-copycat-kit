@@ -15,6 +15,7 @@ import partnerLogo10 from "@/assets/P10.jpg";
 import partnerLogo11 from "@/assets/P11.jpg";
 import partnerLogo12 from "@/assets/P12.jpg";
 import partnerLogo13 from "@/assets/P13.jpg";
+import partnerLogo14 from "@/assets/P14.jpg";
 
 const Services = () => {
   const partners = [
@@ -93,6 +94,12 @@ const Services = () => {
      {
       logo: partnerLogo13,
       name: "Rident عيادات",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+    {
+      logo: partnerLogo14,
+      name: "Gawad شركة",
       description: "",
       website: "https://wa.me/01222919936"
     }
