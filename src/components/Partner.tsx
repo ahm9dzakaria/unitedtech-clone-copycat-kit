@@ -10,6 +10,11 @@ import partnerLogo5 from "@/assets/P5.jpg";
 import partnerLogo6 from "@/assets/P6.jpg";
 import partnerLogo7 from "@/assets/P7.jpg";
 import partnerLogo8 from "@/assets/P8.jpg";
+import partnerLogo9 from "@/assets/P9.jpg";
+import partnerLogo10 from "@/assets/P10.jpg";
+import partnerLogo11 from "@/assets/P11.jpg";
+import partnerLogo12 from "@/assets/P12.jpg";
+import partnerLogo13 from "@/assets/P13.jpg";
 
 const Services = () => {
   const partners = [
@@ -58,6 +63,36 @@ const Services = () => {
      {
       logo: partnerLogo8,
       name: "Lampatronics شركة",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+     {
+      logo: partnerLogo9,
+      name: "شركة سيراميكا روندي",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+     {
+      logo: partnerLogo10,
+      name: "welyra APP",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+     {
+      logo: partnerLogo11,
+      name: "عيادات تمازج",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+     {
+      logo: partnerLogo12,
+      name: "جمعية بنكمل بعض",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+     {
+      logo: partnerLogo13,
+      name: "Rident عيادات",
       description: "",
       website: "https://wa.me/01222919936"
     }
