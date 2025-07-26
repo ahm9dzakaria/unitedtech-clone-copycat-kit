@@ -41,7 +41,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold font-cairo">البريد الإلكتروني</p>
-                    <p className="text-muted-foreground font-cairo">info@unitedtech.com</p>
+                    <p className="text-muted-foreground font-cairo">info@united-tech.com</p>
                   </div>
                 </div>
 
