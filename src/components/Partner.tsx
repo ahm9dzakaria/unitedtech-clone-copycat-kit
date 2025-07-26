@@ -3,9 +3,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Phone, Settings, Users, ArrowLeft } from "lucide-react";
 import heroImage from "@/assets/hero-tech.jpg";
 import partnerLogo1 from "@/assets/P1.jpg";
-import partnerLogo2 from "@/assets/P2.jpg";
-import partnerLogo3 from "@/assets/P3.jpg";
-import partnerLogo4 from "@/assets/P4.jpg";
+import partnerLogo2 from "@/assets/P2.png";
+import partnerLogo3 from "@/assets/P3.png";
+import partnerLogo4 from "@/assets/P4.jfif";
 import partnerLogo5 from "@/assets/P5.jpg";
 import partnerLogo6 from "@/assets/P6.jpg";
 import partnerLogo7 from "@/assets/P7.jpg";
