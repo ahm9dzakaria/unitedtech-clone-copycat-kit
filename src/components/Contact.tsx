@@ -34,6 +34,10 @@ const Contact = () => {
                     <p className="text-muted-foreground font-cairo">+20 1222919936</p>
                   </div>
                 </div>
+                 <div className="space-y-6">
+                <div className="flex items-center space-x-4 rtl:space-x-reverse">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary-glow rounded-lg flex items-center justify-center">
+                    <Phone className="w-6 h-6 text-white" />
                 <div>
                     <p className="font-semibold font-cairo">الهاتف</p>
                     <p className="text-muted-foreground font-cairo">+20 1140764800</p>
