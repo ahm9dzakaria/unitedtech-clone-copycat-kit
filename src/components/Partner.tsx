@@ -2,28 +2,35 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Phone, Settings, Users, ArrowLeft } from "lucide-react";
 import heroImage from "@/assets/hero-tech.jpg";
-import partnerLogo1 from "@/assets/partner-logo-1.jpg";
-import partnerLogo2 from "@/assets/partner-logo-2.jpg";
-import partnerLogo3 from "@/assets/partner-logo-3.jpg";
+import partnerLogo1 from "@/assets/p1.jpg";
+import partnerLogo2 from "@/assets/p2.png";
+import partnerLogo3 from "@/assets/p3.png";
+import partnerLogo3 from "@/assets/p4.jfif";
 
 const Services = () => {
   const partners = [
     {
       logo: partnerLogo1,
-      name: "تك سوليوشنز",
-      description: "شريك تقني متخصص في الحلول الرقمية والابتكار التكنولوجي",
+      name: "مطعم سما العاصمة",
+      description: "",
       website: "https://wa.me/01222919936"
     },
     {
       logo: partnerLogo2,
-      name: "نت ورك برو",
-      description: "خبراء في شبكات الاتصالات وأنظمة المعلومات المتقدمة",
+      name: "سلسلة مطاعم ماكسمام",
+      description: "",
       website: "https://wa.me/01222919936"
     },
     {
       logo: partnerLogo3,
-      name: "ديجيتال بارتنرز",
-      description: "رواد في مجال التحول الرقمي والحلول الذكية للأعمال",
+      name: "مطعم اسماك البحرين",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+      {
+      logo: partnerLogo4,
+      name: "Bellissimo سلسلة كافيهات ",
+      description: "",
       website: "https://wa.me/01222919936"
     }
   ];
