@@ -43,7 +43,7 @@ const Contact = () => {
                     <p className="font-semibold font-cairo">الهاتف</p>
                     <p className="text-muted-foreground font-cairo">+20 1140764800</p>
                   </div>
-           
+                </div>
 
           
                 <div className="flex items-center space-x-4 rtl:space-x-reverse">
