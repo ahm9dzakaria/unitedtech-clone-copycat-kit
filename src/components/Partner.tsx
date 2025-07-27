@@ -85,12 +85,7 @@ const Services = () => {
       description: "",
       website: "https://wa.me/01222919936"
     },
-    {
-      logo: P12,
-      name: "جمعية بنكمل بعض",
-      description: "",
-      website: "https://wa.me/01222919936"
-    },
+   
     {
       logo: P13,
       name: "Rident عيادات",
@@ -100,6 +95,12 @@ const Services = () => {
     {
       logo: P14,
       name: "Gawad",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+     {
+      logo: P12,
+      name: "جمعية بنكمل بعض",
       description: "",
       website: "https://wa.me/01222919936"
     }
