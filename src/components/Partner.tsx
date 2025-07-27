@@ -151,7 +151,7 @@ const Services = () => {
             ))}
             {/* Duplicate set for seamless loop */}
             {partners.map((partner, index) => (
-              <Card key={`duplicate-${index}`} className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/20 min-w-[160px] flex-shrink-0">
+              <Card key={`duplicate-${index}`} className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/20 min-w-[100px] flex-shrink-0">
                 <CardHeader className="text-center">
                   <div className="w-20 h-20 mx-auto mb-4 rounded-2xl overflow-hidden bg-white p-2 group-hover:scale-110 transition-transform duration-300 shadow-md">
                     <img 
