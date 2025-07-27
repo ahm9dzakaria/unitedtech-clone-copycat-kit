@@ -45,7 +45,7 @@ const Services = () => {
     },
     {
       logo: P5,
-      name: "شركة عمالة لألحاق العمالة بالخارج",
+      name: "شركة عمالة",
       description: "",
       website: "https://wa.me/01222919936"
     },
@@ -57,7 +57,7 @@ const Services = () => {
     },
     {
       logo: P7,
-      name: "شركة راجي و شركاه",
+      name: "شركة راجي وشركاه",
       description: "",
       website: "https://wa.me/01222919936"
     },
