@@ -27,7 +27,7 @@ const Services = () => {
     },
     {
       logo: P2,
-      name: "سلسلة مطاعم ماكسمام",
+      name: "مطاعم ماكسمام",
       description: "",
       website: "https://wa.me/01222919936"
     },
@@ -51,7 +51,7 @@ const Services = () => {
     },
     {
       logo: P6,
-      name: "digital Squad شركة",
+      name: "digital Squad",
       description: "",
       website: "https://wa.me/01222919936"
     },
@@ -63,13 +63,13 @@ const Services = () => {
     },
     {
       logo: P8,
-      name: "Lampatronics شركة",
+      name: "Lampatronics",
       description: "",
       website: "https://wa.me/01222919936"
     },
     {
       logo: P9,
-      name: "شركة سيراميكا روندي",
+      name: "سيراميكا روندي",
       description: "",
       website: "https://wa.me/01222919936"
     },
@@ -99,7 +99,7 @@ const Services = () => {
     },
     {
       logo: P14,
-      name: "Gawad شركة",
+      name: "Gawad",
       description: "",
       website: "https://wa.me/01222919936"
     }
