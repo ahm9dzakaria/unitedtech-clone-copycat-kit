@@ -80,13 +80,6 @@ const Services = () => {
       website: "https://wa.me/01222919936"
     },
     {
-      logo: P11,
-      name: "عيادات تمازج",
-      description: "",
-      website: "https://wa.me/01222919936"
-    },
-   
-    {
       logo: P13,
       name: "Rident عيادات",
       description: "",
@@ -95,6 +88,12 @@ const Services = () => {
     {
       logo: P14,
       name: "Gawad",
+      description: "",
+      website: "https://wa.me/01222919936"
+    },
+     {
+      logo: P11,
+      name: "عيادات تمازج",
       description: "",
       website: "https://wa.me/01222919936"
     },
