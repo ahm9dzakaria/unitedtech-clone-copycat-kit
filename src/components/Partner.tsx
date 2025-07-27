@@ -57,7 +57,7 @@ const Services = () => {
     },
     {
       logo: P7,
-      name: "شركة راجي وشركاه",
+      name: "راجي وشركاه",
       description: "",
       website: "https://wa.me/01222919936"
     },
@@ -75,7 +75,7 @@ const Services = () => {
     },
     {
       logo: P10,
-      name: "welyra APP",
+      name: "welyra",
       description: "",
       website: "https://wa.me/01222919936"
     },
