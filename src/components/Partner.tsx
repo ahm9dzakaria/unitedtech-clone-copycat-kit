@@ -39,7 +39,7 @@ const Services = () => {
     },
     {
       logo: P4,
-      name: "Bellissimo كافيهات",
+      name: "Bellissimo Cafe",
       description: "",
       website: "https://wa.me/01222919936"
     },
